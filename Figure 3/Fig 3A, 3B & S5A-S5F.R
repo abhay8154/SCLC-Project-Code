@@ -75,7 +75,7 @@ data<-as.data.frame(data)
 jpeg(paste0("Correlation/","GSE7097 NE vs Inflamed.jpeg"),height = 1080,width = 1620)
 ggplot(data,aes(x=GSE7097_SCLC_I ,y=NEScore)) + 
   geom_point(shape=18, colour = "blue",aes(size = 2),show.legend=FALSE)+
-  xlab("SCLC-I**")+ ylab("NE")+
+  xlab("SCLC-I*")+ ylab("NE")+
   theme(axis.text=element_text(size=40),
         axis.title=element_text(size=40,face="bold"),axis.title.x=element_text(size=60,face="bold"),
         axis.title.y=element_text(size=60,face="bold"),
@@ -95,7 +95,7 @@ data<-as.data.frame(data)
 jpeg(paste0("Correlation/","GSE10841 NE vs Inflamed.jpeg"),height = 1080,width = 1620)
 ggplot(data,aes(x=GSE10841_SCLC_I ,y=NEScore)) + 
   geom_point(shape=18, colour = "blue",aes(size = 2),show.legend=FALSE)+
-  xlab("SCLC-I**")+ ylab("NE")+
+  xlab("SCLC-I*")+ ylab("NE")+
   theme(axis.text=element_text(size=40),
         axis.title=element_text(size=40,face="bold"),axis.title.x=element_text(size=60,face="bold"),
         axis.title.y=element_text(size=60,face="bold"),
@@ -115,7 +115,7 @@ data<-as.data.frame(data)
 jpeg(paste0("Correlation/","GSE66294 NE vs Inflamed.jpeg"),height = 1080,width = 1620)
 ggplot(data,aes(x=GSE66294_SCLC_I ,y=NEScore)) + 
   geom_point(shape=18, colour = "blue",aes(size = 2),show.legend=FALSE)+
-  xlab("SCLC-I**")+ ylab("NE")+
+  xlab("SCLC-I*")+ ylab("NE")+
   theme(axis.text=element_text(size=40),
         axis.title=element_text(size=40,face="bold"),axis.title.x=element_text(size=60,face="bold"),
         axis.title.y=element_text(size=60,face="bold"),
@@ -136,7 +136,7 @@ data<-as.data.frame(data)
 jpeg(paste0("Correlation/","GSE45120 NE vs Inflamed.jpeg"),height = 1080,width = 1620)
 ggplot(data,aes(x=GSE45120_SCLC_I ,y=NEScore)) + xlim(-16,-11)+
   geom_point(shape=18, colour = "blue",aes(size = 2),show.legend=FALSE)+
-  xlab("SCLC-I**")+ ylab("NE")+
+  xlab("SCLC-I*")+ ylab("NE")+
   theme(axis.text=element_text(size=40),
         axis.title=element_text(size=40,face="bold"),axis.title.x=element_text(size=60,face="bold"),
         axis.title.y=element_text(size=60,face="bold"),
@@ -157,7 +157,7 @@ data<-as.data.frame(data)
 jpeg(paste0("Correlation/","GSE62609 NE vs Inflamed.jpeg"),height = 1080,width = 1620)
 ggplot(data,aes(x=GSE62609_SCLC_I ,y=NEScore)) + 
   geom_point(shape=18, colour = "blue",aes(size = 2),show.legend=FALSE)+
-  xlab("SCLC-I**")+ ylab("NE")+
+  xlab("SCLC-I*")+ ylab("NE")+
   theme(axis.text=element_text(size=40),
         axis.title=element_text(size=40,face="bold"),axis.title.x=element_text(size=60,face="bold"),
         axis.title.y=element_text(size=60,face="bold"),
@@ -177,7 +177,7 @@ data<-as.data.frame(data)
 jpeg(paste0("Correlation/","GSE144457 NE vs Inflamed.jpeg"),height = 1080,width = 1620)
 ggplot(data,aes(x=GSE144457_SCLC_I ,y=NEScore)) + 
   geom_point(shape=18, colour = "blue",aes(size = 2),show.legend=FALSE)+
-  xlab("SCLC-I**")+ ylab("NE")+
+  xlab("SCLC-I*")+ ylab("NE")+
   theme(axis.text=element_text(size=40),
         axis.title=element_text(size=40,face="bold"),axis.title.x=element_text(size=60,face="bold"),
         axis.title.y=element_text(size=60,face="bold"),
