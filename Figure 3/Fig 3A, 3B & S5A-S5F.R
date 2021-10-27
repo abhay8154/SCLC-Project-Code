@@ -25,7 +25,7 @@ ggplot(data,aes(x=CCLE_SCLC_I ,y=data)) +
              aes(x=CCLE_SCLC_I,y=data), 
              color='red',
              size=4)+
-  xlab("SCLC-I**")+ ylab("NE")+
+  xlab("SCLC-I*")+ ylab("NE")+
   theme(axis.text=element_text(size=40),
         axis.title=element_text(size=40,face="bold"),axis.title.x=element_text(size=60,face="bold"),
         axis.title.y=element_text(size=60,face="bold"),
@@ -55,7 +55,7 @@ ggplot(data,aes(x=GSE73160_SCLC_I ,y=data)) + xlim(-21,-10)+
              aes(x=GSE73160_SCLC_I,y=data), 
              color='red',
              size=4)+
-  xlab("SCLC-I**")+ ylab("NE")+
+  xlab("SCLC-I*")+ ylab("NE")+
   theme(axis.text=element_text(size=40),
         axis.title=element_text(size=40,face="bold"),axis.title.x=element_text(size=60,face="bold"),
         axis.title.y=element_text(size=60,face="bold"),
